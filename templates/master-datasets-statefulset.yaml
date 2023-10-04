@@ -50,7 +50,7 @@ spec:
           - name: POSTGRES_INITDB_ARGS
             value: --auth-host=scram-sha-256
           - name: POSTGRES_USER
-            value: user 
+            value: postgres
           - name: PGPASSWORD
             valueFrom:
               secretKeyRef:

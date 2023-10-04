@@ -121,3 +121,7 @@ pgpool:
   ## Use Pgpool Load-Balancing
   ##
   useLoadBalancing: true
+
+  ## Use Pgpool Load-Balancing
+  ##
+  cituspassword: ""
